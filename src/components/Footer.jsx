@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
       </div>
    
-  <div className="flex flex-row justify-between  sm:justify-between gap-10  py-4 m-3 ">
+  <div className="flex flex-row pl-10    sm:justify-between gap-20  py-4 m-3 ">
     <div className="sm:w-1/3">
       <h6 className="font-medium text-xl sm:text-2xl lg:text-3xl text-gray-400">Solutions</h6>
       <ul>
@@ -47,6 +47,15 @@ const Footer = () => {
       </ul>
     </div>
     <div className="sm:w-1/3">
+      <h6 className="font-medium text-xl sm:text-2xl lg:text-3xl text-gray-400">Solutions</h6>
+      <ul>
+        <li className="py-2 text-sm sm:text-base">Analytics</li>
+        <li className="py-2 text-sm sm:text-base">Marketing</li>
+        <li className="py-2 text-sm sm:text-base">Commerce</li>
+        <li className="py-2 text-sm sm:text-base">Insights</li>
+      </ul>
+    </div>
+    <div className="sm:w-1/3">
       <h6 className="font-medium text-xl sm:text-2xl lg:text-3xl text-gray-400">Company</h6>
       <ul>
         <li className="py-2 text-sm sm:text-base">About</li>
@@ -56,10 +65,11 @@ const Footer = () => {
         <li className="py-2 text-sm sm:text-base">Careers</li>
       </ul>
     </div>
+    
   </div>
     </div>
   <div className="flex justify-center p-3 bg-white text-green-500 font-bold  h-[70px]">
-    <h1 className="fixed-bottom">copy@ by Adhi...</h1>
+    <h1 className="fixed-bottom">by Adhi...</h1>
   </div> 
     </>
   );
